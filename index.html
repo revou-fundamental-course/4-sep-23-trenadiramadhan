@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik Persegi</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Katik</h1> 
+        <h4>Kalkulator Matematik</h4>
+        <h1>Persegi</h1>
+    </header>
+
+    <article class="paragraphtitle">
+        <h2>Selamat Datang di Katik Persegi</h2>
+        <p>Sebuah web sederhana yang bisa membantu anda untuk menghitung Luas dan Keliling Persegi</p>
+    </article>
+
+    <div class="navcontainer">
+        <a href="index.html">Luas Persegi</a>
+        <a href="#titlekelilingpersegi">Keliling Persegi</a>
+    </div>
+
+    <div class="luaskelilingcontainer">
+
+        <div class="titleluaskelilingpersegi">
+            <h2 id="titleluaspersegi">Luas Persegi</h2>
+        </div>
+
+        <img id="imgluaspersegi" src="https://aura-ilmu.com/global/wp-content/uploads/sites/2/2020/11/l-persegi.jpg.webp" alt="Rumus Luas Persegi">
+        
+        <div class="ketrumusluaskeliling">
+            <p>Rumus Luas Persegi = S x S <br><br>
+            *<br>
+            L = Luas<br>
+            S = Sisi</p>
+        </div>
+
+        <section class="luaskelilinginputsection">
+            <label for="inputfieldluas">Hitung Luas Persegi</label>
+            <input type="number" id="inputfieldluas" placeholder="Nilai Sisi">
+        </section>
+
+        <section class="inputbuttonsection">
+            <button id="btnhitungluas" onclick="calcluas()">Hitung</button>
+            <button id="resetluas" onclick="resetluas()">Reset</button>
+        </section>
+        
+        <div class="resultsection">
+        <p>Luas Perseginya adalah => <span id="hasilluas"></span></p>
+        </div>
+    </div>   
+
+    <div class="luaskelilingcontainer">
+
+        <div class="titleluaskelilingpersegi">
+            <h2 id="titlekelilingpersegi">Keliling Persegi</h2>
+        </div>
+
+        <img id="imgkelilingpersegi" src="https://aura-ilmu.com/global/wp-content/uploads/sites/2/2020/11/k-persegi.jpg.webp" alt="Rumus Keliling Persegi">
+        
+        <div class="ketrumusluaskeliling">
+            <p>Rumus Keliling Persegi = 4 x S <br><br>
+            *<br>
+            K = Keliling<br>
+            S = Sisi</p>
+        </div>
+
+        <section class="luaskelilinginputsection">
+            <label for="inputfieldkeliling">Hitung keliling Persegi</label>
+            <input type="number" id="inputfieldkeliling" placeholder="Nilai Sisi">
+        </section>
+
+        <section class="inputbuttonsection">
+            <button id="btnhitungkeliling" onclick="calckeliling()">Hitung</button>
+            <button id="resetkeliling" onclick="resetkeliling()">Reset</button>
+        </section>
+
+        <div class="resultsection">
+            <p>Keliling Perseginya adalah => <span id="hasilkeliling"></span></p>
+        </div>
+
+    </div>
+
+        <footer>Made by <strong>Trenadi Ramadhan</strong> as assignment from <strong>RevoU SEFC</strong><br>
+        Thanks to <strong>RevoU!</strong></footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
