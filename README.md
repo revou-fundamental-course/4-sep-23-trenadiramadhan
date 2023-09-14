@@ -1,2 +1,3 @@
 # 4-sep-23-trenadiramadhan
-4-sep-23-trenadiramadhan created by GitHub Classroom
+Website Kalkulator Matematik (Persegi)<br>
+Made by Trenadi Ramadhan as assignment from RevoU
